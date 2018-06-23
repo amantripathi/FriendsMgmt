@@ -7,5 +7,12 @@ Rails.application.routes.draw do
         get 'common_friends'
       end
     end
+
+    resources :subscription, only: [:create] do
+      collection do
+        post 'block'
+        post 'reciever'
+      end
+    end
   end
 end

@@ -17,6 +17,7 @@ class Api::RelationshipController < ApplicationController
     end
   end 
 
+  #get the friend list by providing user email
   def friend_list
     if params[:email].nil?
       raise  ActiveRecord::RecordInvalid
@@ -31,7 +32,8 @@ class Api::RelationshipController < ApplicationController
     end
   end
 
-   def common_friends
+  #This method is used to list common friends bwtween two emails
+  def common_friends
     if params[:friends].nil? || params[:friends].size != 2
       raise  ActiveRecord::RecordInvalid
     else
