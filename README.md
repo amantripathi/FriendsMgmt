@@ -3,6 +3,15 @@ This is a API based project for doing features like "Friend", "Unfriend", "Block
 
 # This project is totally API based build in Rails 5.2.0
 
+## The dummy users list are:
+```
+'andy@example.com'
+'john@example.com'
+'common@example.com'
+'lisa@example.com'
+'kate@example.com'
+```
+
 ###BASE_URL
 **https://desolate-sands-76509.herokuapp.com**
 
