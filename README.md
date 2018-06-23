@@ -7,9 +7,11 @@ BASE_URL = https://desolate-sands-76509.herokuapp.com
 
 
 1. For Friendship
+  ```
   endpoints: api/relationship
   Method: POST
   request: { friends: [ 'andy@example.com', 'john@example.com' ] }
+  ```
 
 2. Get Friend list
   endpoint: /api/relationship/friend_list
